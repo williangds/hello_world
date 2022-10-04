@@ -1,0 +1,1 @@
+const button = document.querySelector('#button').onclick = () => alert('You clicked me... How dare you?');
