@@ -10,11 +10,12 @@ h1 {
     font-size: 3em;
     color: navy;
     font-weight: bold;
+    margin-top: 1em;
 }
 
 h1,
 p {
-    margin: 0 0 0.5em;
+    margin-bottom: 0.5em;
 }
 
 p {
@@ -39,7 +40,7 @@ button {
     color: aliceblue;
     padding: .5em 3em;
     margin: 0 0 .5em;
-    transition: 0.15s all   ;
+    transition: 0.15s all;
 }
 
 button:hover {
