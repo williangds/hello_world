@@ -1,8 +1,50 @@
 body {
     background-color: lightblue;
+    font-family: 'Montserrat', sans-serif;
+    width: 940px;
+    margin: 0 auto;
 }
 
 h1 {
+    text-align: center;
+    font-size: 3em;
     color: navy;
-    margin-left: 20px;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+h1,
+p {
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.img-pattern {
+    text-align: center;
+    margin: 0 auto 2em;
+}
+
+img {
+    width: 500px;
+}
+
+button {
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: navy;
+    color: aliceblue;
+    padding: .5em 3em;
+    margin: 0 0 .5em;
+    transition: 0.15s all;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: aliceblue;
+    color: navy;
 }
